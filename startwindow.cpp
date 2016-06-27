@@ -1,3 +1,7 @@
+/**
+ *author:hanjinpeng
+ *545751287@qq.com
+ */
 #include "startwindow.h"
 #include "ui_startwindow.h"
 #include<QPainter>

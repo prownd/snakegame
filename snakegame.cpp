@@ -1,3 +1,7 @@
+/**
+ *author:hanjinpeng
+ *545751287@qq.com
+ */
 #include "snakegame.h"
 #include "ui_snakegame.h"
 #include <QPalette>

@@ -1,3 +1,7 @@
+/**
+ *author:hanjinpeng
+ *545751287@qq.com
+ */
 #ifndef STARTWINDOW_H
 #define STARTWINDOW_H
 #include <QMainWindow>

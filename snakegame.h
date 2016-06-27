@@ -1,3 +1,7 @@
+/**
+ *author:hanjinpeng
+ *545751287@qq.com
+ */
 #ifndef SNAKEGAME_H
 #define SNAKEGAME_H
 
