@@ -7,8 +7,12 @@ TARGET =
 DEPENDPATH += .
 INCLUDEPATH += .
 
+
+MOC_DIR=./tmp
+OBJECTS_DIR=./tmp
+
 # Input
 HEADERS += src/snakegame.h src/startwindow.h
 FORMS += src/snakegame.ui src/startwindow.ui
 SOURCES += src/main.cpp src/snakegame.cpp src/startwindow.cpp
-RESOURCES += src/resc.qrc
+RESOURCES += res/resources.qrc
