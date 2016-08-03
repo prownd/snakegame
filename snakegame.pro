@@ -8,7 +8,7 @@ DEPENDPATH += .
 INCLUDEPATH += .
 
 # Input
-HEADERS += snakegame.h startwindow.h
-FORMS += snakegame.ui startwindow.ui
-SOURCES += main.cpp snakegame.cpp startwindow.cpp
-RESOURCES += resc.qrc
+HEADERS += src/snakegame.h src/startwindow.h
+FORMS += src/snakegame.ui src/startwindow.ui
+SOURCES += src/main.cpp src/snakegame.cpp src/startwindow.cpp
+RESOURCES += src/resc.qrc
