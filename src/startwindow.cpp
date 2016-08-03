@@ -35,7 +35,7 @@ void startwindow::paintEvent (QPaintEvent *e)
 {
     QPainter painter(this);
     QImage img;
-    img.load ("background1.jpg");
+    img.load (":/images/images/background1.jpg");
     painter.drawImage (0,0,img);
 }
 void startwindow::startprogram ()

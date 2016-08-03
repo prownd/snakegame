@@ -46,8 +46,8 @@ Snakegame::Snakegame(QWidget *parent) :
     labscore=new QLabel(tr("score:"),this);
     lcdscore=new QLCDNumber(this);
     lcdfoodcount=new QLCDNumber(this);
-    eatsnd=new QSound("eatsnd.wav",this);
-    endsnd=new QSound("endsnd.wav",this);
+    eatsnd=new QSound(":/sounds/sounds/eatsnd.wav",this);
+    endsnd=new QSound(":/sounds/sounds/endsnd.wav",this);
    // lcdfoodcount->resize (30,30);
     labtime->move (630,80);
     lcdtime->move (630,120);
