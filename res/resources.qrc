@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/background1.jpg</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>sounds/eatsnd.wav</file>
+        <file>sounds/endsnd.wav</file>
+    </qresource>
+</RCC>
