@@ -5,7 +5,12 @@
 #ifndef SNAKEGAME_H
 #define SNAKEGAME_H
 
-#include <QMainWindow>
+#include <QtGlobal>
+#if QT_VERSION >= 0x050000
+	#include <QtWidgets/QMainWindow>
+#else
+	#include <QMainWindow>
+#endif
 #include <QLabel>
 #include<QList>
 #include<QImage>

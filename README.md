@@ -1,10 +1,14 @@
 #Desc 
 a funny snake game . it is writed by qt code.
-贪吃蛇游戏，由qt来实现的 ，qt版本4.x   
+贪吃蛇游戏，由qt来实现的 ，qt版本4.x, 5.x
+
+#dnf install qt5-qtmultimedia-devel for centos8
   
    
 #Compile and Run
-qmake     
+qmake   
+#if use qt5       
+qmake-qt5        
 make    
 ./snakegame      
    

@@ -21,7 +21,8 @@ Snakegame::Snakegame(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::Snakegame)
 {
-    QTextCodec::setCodecForTr(QTextCodec::codecForLocale());
+    //QTextCodec::setCodecForTr(QTextCodec::codecForLocale());
+    QTextCodec::setCodecForLocale(QTextCodec::codecForLocale());
     //coder=QTextCodec::codecForName("GBK");
     //QTextCodec::setCodecForTr(coder);
     ui->setupUi(this);
