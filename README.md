@@ -12,7 +12,8 @@ qmake
 
 qmake-qt5        
 
-make    
+make
+
 ./snakegame
 ```
 
