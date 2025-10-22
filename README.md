@@ -8,8 +8,8 @@ A very interesting snake game, written in qt.
 ## Build
 ```bash
 qmake   
-###if use qt5
 
+#use qt5
 qmake-qt5        
 
 make
